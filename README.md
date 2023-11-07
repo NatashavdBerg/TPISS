@@ -3,7 +3,7 @@
 This repository provides a framework for predicting irregularly sampled sequence data. For this project, customer journey data is used. 
 
 First, open the files in Google Drive as these files are intended for use in Google Collab. Change the PATH to your path in your Google Drive. 
-The required libraries are pre-defined per file and installed in the file itself too. To download the Dunnhumby - The Complete Journey dataset, click here: https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey
+The required libraries are pre-defined per file and installed in the file itself too. To download the Dunnhumby - The Complete Journey dataset, click here: https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey. Put the dataset in a map called "output_other_dataset"
 
 Preprocessing the hotel dataset:
 
