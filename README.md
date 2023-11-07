@@ -30,7 +30,7 @@ Different models to find the best-performing one for the framework (RQ3):
 To compare the framework to the Dunnhumby -The Complete Journey dataset (RQ8):
 -	Preprocessing dataset: Run Preprocess_data_dunnhumby.ipynb
 -	Baseline: Run RandomForestRegressor_final_dunnhumby.ipynb
--	LSTM: Run LSTM_final_dunnhumby_FINAL.ipynb
+-	LSTM: Run LSTM_final_dunnhumby.ipynb
   
 To run the files containing the business value of this thesis (RQ4 and RQ7):
 -	Prediction income hotel with TFT model: Run TFT_target_price_final.ipynb with model: price_tft/trial_9/epoch=19.ckpt
@@ -45,3 +45,5 @@ To run the files for ablation analysis on LSTM:
     -	Ablation on LSTM: Run LSTM_next_final_ablation.ipynb
     -	Ablation on next event net: Run LSTM_next_final_ablation.ipynb and set next_event_net to False in the model
     -	Ablation on embedding net: Run LSTM_next_final_ablation.ipynb and set embedding to False in the model
+      
+Sources that have been utilized are the PyTorch tutorials and SHAP tutorials. 
