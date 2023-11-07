@@ -9,7 +9,7 @@ Preprocessing the hotel dataset:
 
 To find the dataset that preprocesses the dataset run file: preprocess_data_full_hotel_dataset_final.ipynb
 
-For the different forms of datasets:
+The different forms of datasets:
 -	Leisure dataset (RQ5): leisure_hotel_dataset_final.ipynb
 -	Business dataset (RQ5): business_hotel_dataset_final.ipynb
 -	Balanced I dataset (RQ6): balanced_I_hotel_dataset_final.ipynb
