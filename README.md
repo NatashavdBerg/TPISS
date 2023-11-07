@@ -2,8 +2,8 @@
 
 This repository provides a framework for predicting irregularly sampled sequence data. For this project, customer journey data is used. 
 
-First, open the files in Google Drive as these files are intended for use in Google Collab. Change the PATH to your own path in your Google Drive. 
-The required libraries are pre-defined per file and installed in the file itself too. 
+First, open the files in Google Drive as these files are intended for use in Google Collab. Change the PATH to your path in your Google Drive. 
+The required libraries are pre-defined per file and installed in the file itself too. To download the Dunnhumby - The Complete Journey dataset, click here: https://www.kaggle.com/datasets/frtgnn/dunnhumby-the-complete-journey
 
 Preprocessing the hotel dataset:
 
@@ -27,7 +27,7 @@ Different models to find the best-performing one for the framework (RQ3):
         - Balanced II: output/10_selected_guest_data/df_balancedII_data_standardscaler and output/10_selected_guest_data/y_balancedII_data with batch size 256
 -	RFR: Run RandomForestRegressor_final.ipynb. The same datasets hold for the one stated above for LSTM.
   
-To compare the framework to the Dunnhumby -The Complete Journey dataset (RQ8):
+To compare the framework to the Dunnhumby - The Complete Journey dataset (RQ8):
 -	Preprocessing dataset: Run Preprocess_data_dunnhumby.ipynb
 -	Baseline: Run RandomForestRegressor_final_dunnhumby.ipynb
 -	LSTM: Run LSTM_final_dunnhumby.ipynb
